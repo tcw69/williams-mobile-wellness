@@ -1,0 +1,155 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Williams Mobile Wellness</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+        header, footer {
+            background-color: #005f73;
+            color: white;
+            padding: 1rem 2rem;
+            text-align: center;
+        }
+        nav {
+            background: #0a9396;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 1rem;
+            text-decoration: none;
+        }
+        section {
+            padding: 2rem;
+            background-color: white;
+            margin: 1rem auto;
+            max-width: 900px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #0a9396;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 1rem;
+        }
+        table, th, td {
+            border: 1px solid #ccc;
+        }
+        th, td {
+            padding: 0.5rem;
+            text-align: left;
+        }
+        .cta-button {
+            display: inline-block;
+            background-color: #ee9b00;
+            color: white;
+            padding: 0.75rem 1.5rem;
+            text-decoration: none;
+            border-radius: 4px;
+            margin-top: 1rem;
+        }
+        form {
+            margin-top: 1rem;
+        }
+        form p {
+            margin-bottom: 1rem;
+        }
+        input, textarea, button {
+            width: 100%;
+            padding: 0.5rem;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        button {
+            background-color: #005f73;
+            color: white;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Williams Mobile Wellness</h1>
+    <p>Wellness That Moves With You</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#plans">Plans</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>Your Wellness. Your Space. Your Schedule.</h2>
+    <p>Williams Mobile Wellness brings expert-led mobility, fitness, and nutrition services directly to your home or office. No crowded gyms, no commute—just real results on your terms.</p>
+    <p><strong>Mission:</strong> To deliver holistic, personalized wellness solutions that empower you to move better, feel stronger, and live healthier—anytime, anywhere.</p>
+</section>
+
+<section id="services">
+    <h2>What We Offer</h2>
+    <table>
+        <tr><th>Service</th><th>Rate</th><th>Description</th></tr>
+        <tr><td>Mobility Coaching</td><td>$50/session</td><td>Improve flexibility, ease pain, and restore healthy movement.</td></tr>
+        <tr><td>Personal Training</td><td>$75/session</td><td>Workouts tailored to your goals, space, and fitness level.</td></tr>
+        <tr><td>Corrective Exercise</td><td>$100/session</td><td>Rehabilitative care to prevent injury and improve function.</td></tr>
+        <tr><td>Nutrition Coaching</td><td>$20/hour</td><td>Simple, science-based guidance to help you eat better.</td></tr>
+    </table>
+    <a href="#plans" class="cta-button">See Full Pricing & Plans</a>
+</section>
+
+<section id="plans">
+    <h2>Save More with Bundles & Subscriptions</h2>
+    <p><strong>Prepaid Packages:</strong></p>
+    <ul>
+        <li>Mobility Pack: 5 for $225 / 10 for $425</li>
+        <li>Training Series: 8 for $560 / 12 for $810</li>
+        <li>Corrective Recovery: 4 for $360 / 8 for $680</li>
+        <li>Nutrition Blocks: 5 hrs for $90 / 10 hrs for $160</li>
+    </ul>
+    <p><strong>Monthly Plans:</strong></p>
+    <ul>
+        <li>Mobility Maintenance – $180/mo</li>
+        <li>Strength Builder – $280/mo</li>
+        <li>Rebuild & Realign – $400/mo</li>
+        <li>Total Wellness Plan – $750/mo</li>
+    </ul>
+    <p><strong>Add-Ons:</strong> Nutrition hour ($15), Bring-a-friend ($25), 15-min virtual check-in ($10)</p>
+</section>
+
+<section id="contact">
+    <h2>Ready to Move Better and Feel Stronger?</h2>
+    <p><strong>Email:</strong> williamsmobilewellness@gmail.com</p>
+    <p><strong>Phone:</strong> (XXX) XXX-XXXX</p>
+    <p><strong>Service Area:</strong> [Insert Local Area]</p>
+
+    <form name="contact" method="POST" data-netlify="true">
+        <p><label>Your Name: <input type="text" name="name" required></label></p>
+        <p><label>Your Email: <input type="email" name="email" required></label></p>
+        <p><label>Message or Booking Request:<br><textarea name="message" required></textarea></label></p>
+        <p><button type="submit">Send</button></p>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2025 Williams Mobile Wellness. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
